@@ -38,7 +38,7 @@ const CreateGroup = () => {
         <Form.Group>
           <Form.Control
             type="text"
-            placeholder="그룹 이름을 만들어주세요."
+            placeholder="그룹 이름"
             required
             onChange={(e) => setGroupName(e.target.value)}
           />
